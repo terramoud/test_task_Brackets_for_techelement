@@ -7,8 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/func/index.js',
-    check_func: './src/check_func/check_func.js',
+    index: './src/index.js',
   },
   output: {
     filename: '[name].js',
@@ -90,18 +89,11 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/func/index.html',
+      template: './src/index.html',
       inject: true,
       chunks: ['index'],
       defer: ['app'],
       filename: 'index.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/check_func/check_func.html',
-      chunks: ['check_func'],
-      inject: true,
-      defer: ['app'],
-      filename: 'check_func.html'
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
