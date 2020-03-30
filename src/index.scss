@@ -1,0 +1,25 @@
+$color-true: lighten(green, 20%);
+$color-false: red;
+
+
+.check-field-label {
+  display: block;
+}
+
+.check-result {
+  height: 20px;
+  width: 100px;
+  border: 1px solid grey;
+  padding: 0 5px 0 5px;
+  &_theme_false {
+    border: 1px solid $color-false;
+    box-shadow: 0 0 3px $color-false;
+    color: $color-false;
+  }
+  &_theme_true {
+    border: 1px solid $color-true;
+    box-shadow: 0 0 3px $color-true;
+    color: $color-true;
+  }
+}
+
