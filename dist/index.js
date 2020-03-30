@@ -94,7 +94,7 @@
 /***/ (function(module, exports) {
 
 // Module
-var code = "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <title>Function brackets</title>\r\n</head>\r\n<body>\r\n  <label class=\"check-field-label\"> Функция проверяющую валидность работы первой функции\r\n    <textarea class=\"check-field\" name=\"\" id=\"check-field\" cols=\"300\" rows=\"10\"></textarea>\r\n  </label>\r\n  <div class=\"check-result\"></div>\r\n  <hr>\r\n  <label class=\"input-field-label\"> Введите число пар скобок\r\n    <input type=\"number\" class=\"input-field\" />\r\n  </label>\r\n  <div class=\"output-field\"></div>\r\n</body>\r\n</html>\r\n";
+var code = "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <title>Function brackets</title>\r\n</head>\r\n<body>\r\n  <label class=\"check-field-label\"> Функция проверяющую валидность работы первой функции\r\n    <textarea class=\"check-field\" name=\"\" id=\"check-field\" cols=\"160\" rows=\"10\"></textarea>\r\n  </label>\r\n  <div class=\"check-result\"></div>\r\n  <hr>\r\n  <label class=\"input-field-label\"> Введите число пар скобок\r\n    <input type=\"number\" class=\"input-field\" />\r\n  </label>\r\n  <div class=\"output-field\"></div>\r\n</body>\r\n</html>\r\n";
 // Exports
 module.exports = code;
 
